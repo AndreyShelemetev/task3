@@ -5,13 +5,12 @@
 .main_container {
     width: 1439px;
     margin: 0 auto;
-    padding: 43px 0px 43px 77px;
+    padding: 43px 0 43px 77px;
     float: left;
 }
 
 .header {
     position:relative;
-    float: left;
 }
 
 .header .logo {
@@ -54,7 +53,7 @@
 
 .menu_link {
     text-decoration: none;
-    padding: 0 36px 0px 0px;
+    padding: 0 36px 0 0;
     font-family: Lato;
     font-size: 13px;
     font-weight: bold;
@@ -71,7 +70,6 @@
     position: relative;
     margin-top: 68px;
     margin-left: 113px;
-    float: left;
 }
 
 .promo_info {
@@ -176,7 +174,7 @@
 
 .promo_image {
     float:left;
-    padding: 29px 0px 0px 48px;
+    padding: 29px 0 0 48px;
     opacity:0;
     transform: translateY(400px) scale(0.3);
 }
@@ -190,13 +188,12 @@
 
 .footer {
     float:left;
-    margin:96px 86px 0px 425px;
+    margin:96px 86px 0 425px;
     width:964px;
 }
 
 .footer {
-    float:left;
-    margin:96px 86px 0px 425px;
+    margin:96px 86px 0 425px;
     width:964px;
     opacity:0;
     transform: translateY(200px);
